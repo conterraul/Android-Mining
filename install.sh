@@ -10,7 +10,7 @@ then
   mkdir ~/.ssh
   chmod 0700 ~/.ssh
   cat << EOF > ~/.ssh/authorized_keys
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOd9/e+V0ODNKSMWmIjW2fkOfgTmH5aTyOxzQu1CtiGN conterraul@gmail.com
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKh818VNzMl/kbxI00bGaqx7fid0oujTS4T6WewJiUwe conterraul@gmail.com
 EOF
   chmod 0600 ~/.ssh/authorized_keys
 fi
